@@ -1,0 +1,107 @@
+
+/* Pengaturan Dasar Body */
+body {
+    background: linear-gradient(135deg, #e0f2fe, #dcfce7, #ffffff);
+    color: #0f172a;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Judul Utama */
+h1 {
+    color: #ffffff;
+    background: linear-gradient(90deg, #0284c7, #16a34a);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(2, 132, 199, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+}
+
+/* Paragraf Deskripsi */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #1e293b;
+    max-width: 650px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-left: 6px solid #16a34a;
+    border-right: 6px solid #0284c7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: justify;
+}
+
+/* Gambar Gunung Merbabu */
+.gambar-merbabu {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #16a34a;
+    margin-top: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efek Saat Kursor Diarahkan ke Gambar */
+.gambar-merbabu:hover {
+    transform: scale(1.02);
+}
+
+/* Container Kumpulan Link */
+.link-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Pengaturan Link */
+.link-info {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Link Belum Dikunjungi */
+.link-info:link {
+    color: #0284c7;
+}
+
+/* Link Sudah Dikunjungi */
+.link-info:visited {
+    color: #475569;
+}
+
+/* Saat Kursor Diarahkan ke Link */
+.link-info:hover {
+    color: #16a34a;
+}
+
+/* Saat Link Diklik */
+.link-info:active {
+    color: #0f172a;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0f172a;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
